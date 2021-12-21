@@ -1,0 +1,137 @@
+/* Basic Style */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(220, 220, 248);
+}
+
+.main{
+width: 90%;
+margin: auto;
+}
+
+ /* Header style */
+ .header{
+     width: 100%;
+     height: auto;
+ }
+
+ .header > h1{
+     margin-top: 20px;
+     font-size: 40px;
+     font-family: Arial, Helvetica, sans-serif;
+     text-transform: uppercase;
+     font-weight: 400;
+     color: rgb(48, 93, 119);
+ }
+/* navigation bar overall style */
+ .nav{
+     background-color:rgb(48, 93, 119);
+     width: 100%;
+     height: auto;
+ }
+
+ul{
+   list-style-type: none;
+}
+ul > li{
+display: inline-block;
+word-spacing: 20px;
+font-size: 20px;
+padding: 20px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+li > a{
+text-decoration: none;
+color: white;
+}
+
+/* Banner Image */
+.banner{
+    width: 100%;
+    height: 60vh;
+    margin-top: 3px; 
+}
+
+
+/* Content Style */
+
+h2{
+    font-size: 30px;
+    margin: 10px 0;
+}
+/* modify font of the first h2 element */
+.font{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* modify font of all paragraphs found in the content class */
+.content >p{
+    font-size: 1.2em;
+    line-height: 25px;
+}
+.content >p >img{
+    width: 15%;
+    height: 20vh;
+    padding: 10px;
+    float: right;
+
+}
+/* Footer Style */
+.footer{
+    background-color:rgb(48, 93, 119) ;
+   margin-top: 30px;
+   padding: 25px;
+   font-size: 1.2em;
+   color: #fff;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Read our blog modify */
+.blog{
+    color: rgb(50, 71, 128);
+    font-size: 1.3em;
+}
+
+/* About Us Page Title  */
+.title{
+    background-color: rgb(32, 69, 90);
+    height: 150px;
+    margin: 5px 0px;
+    color: #fff;
+    text-align: center;
+    line-height: 150px;
+    font-weight: 400;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+/* About US page Content */
+.content > h1{
+    text-align: center;
+}
+ .three{
+     text-align:center;
+ }
+
+.image > p > img{
+    width: 18%;
+    height: 30vh;
+    float: left;
+    padding: 10px;
+   
+}
+.image > p{
+    font-size: 1.2em
+}
+.free{
+    color: rgb(50, 71, 128);
+    font-size: 1.3em; 
+}
+
+/* preventions font size modify  */
+.GH{
+    font-size:1.2em ;
+}
